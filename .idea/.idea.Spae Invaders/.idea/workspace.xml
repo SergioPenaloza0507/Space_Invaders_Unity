@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4a32c14-3585-47be-9bc7-59f7c0314cf8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CanvasFeedBAck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/InputIndexer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interfaces/IDamager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/ShootController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game Management/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game Management/GameCase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ObjectPools/IPoolObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ObjectPools/Pool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingleHitBullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game Management/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Hive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/Squad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/RowMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MovementHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IDamager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IVulnerable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HiveBrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Row.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MovementController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ObjectPools/IPoolObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShootController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputIndexer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Hive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Row.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/InputIndexer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/RowMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PiercingBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Squad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SingleHitBullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Hive.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game Management/GameCase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game Management/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/ObjectPools/Pool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Game Management/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/CanvasFeedBAck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShootController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Rw77816BF3zYj2sIt4ZZ3i41cw" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4a32c14-3585-47be-9bc7-59f7c0314cf8" name="Default Changelist" comment="" />
+      <created>1570566146364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570566146364</updated>
+      <workItem from="1570566169736" duration="17500000" />
+      <workItem from="1570663621175" duration="10611000" />
+      <workItem from="1570728127942" duration="3638000" />
+      <workItem from="1570747441613" duration="53532000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
