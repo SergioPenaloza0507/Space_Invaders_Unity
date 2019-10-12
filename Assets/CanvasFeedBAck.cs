@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -18,7 +19,7 @@ public class CanvasFeedBAck : MonoBehaviour
     void Update()
     {
         score.text = ScoreManager.Instance.sc.amount.ToString();
-        cooldownBurst.text = FindObjectOfType<ShootController>().BurstTime.ToString() + "%";
-        coolDownPierce.text = FindObjectOfType<ShootController>().PierceTime.ToString() + "%";
+        cooldownBurst.text = Math.Round(FindObjectOfType<ShootController>().BurstTime,1).ToString() + "%";
+        coolDownPierce.text = Math.Round(FindObjectOfType<ShootController>().PierceTime,1).ToString() + "%";
     }
 }

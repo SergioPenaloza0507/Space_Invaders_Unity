@@ -22,9 +22,23 @@ namespace Enemies
             pool = GetComponent<Pool>();
             SpawnRows(true);
         }
+
+        void SpawnRow()
+        {
+            Squad sq = (Squad)Hive.Instance.gameObject.AddComponent(typeof(Squad));
+            Queue<EnemyMovement> en = new Queue<EnemyMovement>();
+            int type = Mathf.RoundToInt(Random.Range(0, pool.Length));
+            sq.OnWiped += SpawnRow;
+            for (int j = 0; j < enemiesPerRow; j ++) 
+            {
+                int[] aram = {j, 0};
+                GameObject g = pool.GetActiveGameObject(type, aram);
+                en.Enqueue(g.GetComponent<EnemyMovement>());
+                sq.SetEnemies(en.ToArray());
+                
+            }
+        }
         
-    
-        [SerializeField] private int ActiveRows;
         void SpawnRows(bool offseted)
         {
             int start = offseted ? 1 : 0;
@@ -33,6 +47,7 @@ namespace Enemies
             for (int i = 0; i < rows; i++)
             {
                 Squad sq = (Squad)Hive.Instance.gameObject.AddComponent(typeof(Squad));
+                sq.OnWiped += SpawnRow;
                 Queue<EnemyMovement> en = new Queue<EnemyMovement>();
                 int type = Mathf.RoundToInt(Random.Range(0, pool.Length));
                 for (int j = 0; j < enemiesPerRow; j ++) 
@@ -42,6 +57,7 @@ namespace Enemies
                     GameObject g = pool.GetActiveGameObject(type, aram);
                     en.Enqueue(g.GetComponent<EnemyMovement>());
                     sq.SetEnemies(en.ToArray());
+                    
                 }
             }
         }

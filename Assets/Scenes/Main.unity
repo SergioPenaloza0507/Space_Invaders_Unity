@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemiesPerRow: 8
-  rows: 8
+  rows: 5
   ActiveRows: 6
 --- !u!4 &478071599
 Transform:

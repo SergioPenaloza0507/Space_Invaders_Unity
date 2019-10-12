@@ -16,6 +16,12 @@ public class ShootController : MonoBehaviour
         get => burstTimer;
     }
 
+    private void Start()
+    {
+        burstTimer = coolDownBurst;
+        piercingTimer = coolDownPiercing;
+    }
+
     public float PiercingTimer
     {
         get => piercingTimer;
